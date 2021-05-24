@@ -1,0 +1,25 @@
+# Atk + 13%
+
+Sword :
+  Attribute :
+  Modifier :
+  - Attack 0.13
+  Mechanical :
+
+Sword :
+  Attribute :
+  Modifier :
+  - Defend 0.23
+  Mechanical :
+
+Gauntlet :
+  Attribute :
+  - Strength 3
+  Modifier :
+  Mechanical :
+
+Wand :
+  Attribute :
+  - Intelligence 3
+  Modifier :
+  Mechanical :

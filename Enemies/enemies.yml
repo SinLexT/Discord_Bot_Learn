@@ -1,0 +1,52 @@
+Slime_Warrior:
+  type: slime
+  attributes :
+  - 5
+  - 5
+  - 3
+  items :
+  - Sword
+  - Shield
+  actions :
+  # name skill, damage, chance
+  - Stun - 0.01
+  - DPS 0.005 1
+  - Critical_Hit 2 0.1
+  drops:
+  - Xp 50
+  - Slime 1-3 1
+  - Sword 1 0.3
+
+Slime:
+  type: slime
+  attributes :
+  - 2
+  - 4
+  - 1
+  items :
+  - Sword
+  - Shield
+  actions :
+  - Attack 0.15
+  - Critical_Hit 1.4 0.05
+  - DPS 0.005 0.8 
+  drops:
+  - Xp 30
+  - Slime 1-2 1
+
+Slime_Boss:
+  type: slime
+  attributes :
+  - 10
+  - 4
+  - 3
+  items :
+  - Sword
+  - Shield
+  actions :
+  - Stun 0 0.1
+  - DPS 0.025 1
+  - Critical_Hit 3 0.2
+  drops:
+  - Xp 150
+  - Slime_key 1 1
